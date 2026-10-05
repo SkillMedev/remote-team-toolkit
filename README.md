@@ -1,16 +1,17 @@
 # Remote Team Toolkit
 
-**For remote managers: keep the team aligned async, without back-to-back meetings.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For remote managers: keep the team aligned async, without back-to-back meetings.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-remote-team-toolkit).
 
 Reach for this when your remote team is drowning in status meetings and threads. It turns meetings into tracked actions, writes the async updates and stakeholder notes that replace standups, structures 1:1s, and helps you deliver feedback that lands - so alignment happens in writing, on everyone's own clock, and your calendar opens back up.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/remote-team-toolkit](https://skillme.dev/pack/remote-team-toolkit) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/remote-team-toolkit?utm_source=github&utm_medium=readme&utm_campaign=pack-remote-team-toolkit) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add meeting-notes-to-actions weekly-review okr-builder feedback-writer stakeholder-update async-communication 1on1-agenda --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/remote-team-toolkit`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for this when your remote team is drowning in status meetings and threads.
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-remote-team-toolkit).
